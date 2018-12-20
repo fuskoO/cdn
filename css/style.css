@@ -2,17 +2,17 @@ body {
     font-family: monospace;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #333;
+    color: rgba(255, 255, 255, 0.55);
+    background-color: #493382;
 }
 
 .h1, h1 {
-    color: #feed71;
+    color: #ffffff;
     font-size: 24px;
 }
 
 .text-muted {
-    color: #999;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-style: italic;
 }
@@ -20,7 +20,7 @@ body {
 .page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 2px solid rgb(68, 68, 68);
+    border-bottom: 2px solid rgb(105, 92, 139);
 }
 
 spam {
@@ -38,7 +38,7 @@ img.logocdn {
 }
 
 a:focus, a:hover {
-    color: #feed71;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -48,7 +48,8 @@ a {
 }
 
 p {
-    color: #666;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
 }
 
 i.fa.fa-twitter-square {
